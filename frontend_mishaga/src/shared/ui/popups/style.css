@@ -1,0 +1,13 @@
+.created-entity__popup {
+    -webkit-animation: smooth 4s ease-in;
+    -moz-animation: smooth 4s ease-in;
+    -o-animation: smooth 4s ease-in;
+    -ms-animation: smooth 4s ease-in;
+    animation: smooth 4s ease-in;
+    animation-delay: 1s;
+}
+
+@keyframes smooth {
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+}

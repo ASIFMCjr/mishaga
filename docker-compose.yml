@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  db:
+    container_name: db
+    image: postgres:alpine3.18
+    restart: always
+    env_file: ".env"
+    ports:
+      - 5432:5432
+  backend:
+    container_name: backend
+    build:
+      dockerfile: Dockerfile
+      context: ./backend_mishaga
+    ports:
+      - 3000:3000
+    env_file: ".env"
+  # frontend:
+  #  container_name: frontend
+  #  build:
+  #    dockerfile: Dockerfile
+  #    context: ./frontend_mishaga
+  #  ports:
+  #    - 5173:5173
+  #  env_file: ".env"
