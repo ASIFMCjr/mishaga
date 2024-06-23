@@ -1,0 +1,81 @@
+# Logs
+frontend_mishaga/logs
+frontend_mishaga/*.log
+frontend_mishaga/npm-debug.log*
+frontend_mishaga/yarn-debug.log*
+frontend_mishaga/yarn-error.log*
+frontend_mishaga/pnpm-debug.log*
+frontend_mishaga/lerna-debug.log*
+
+frontend_mishaga/node_modules
+frontend_mishaga/dist
+frontend_mishaga/dist-ssr
+frontend_mishaga/*.local
+
+# Editor directories and files
+frontend_mishaga/.vscode/*
+frontend_mishaga/!.vscode/extensions.json
+frontend_mishaga/.idea
+frontend_mishaga/.DS_Store
+frontend_mishaga/*.suo
+frontend_mishaga/*.ntvs*
+frontend_mishaga/*.njsproj
+frontend_mishaga/*.sln
+frontend_mishaga/*.sw?
+
+# compiled output
+/dist
+/node_modules
+/build
+
+# Logs
+backend_mishaga/logs
+backend_mishaga/*.log
+backend_mishaga/npm-debug.log*
+backend_mishaga/pnpm-debug.log*
+backend_mishaga/yarn-debug.log*
+backend_mishaga/yarn-error.log*
+backend_mishaga/lerna-debug.log*
+
+# OS
+backend_mishaga/.DS_Store
+
+# Tests
+backend_mishaga/coverage
+backend_mishaga/.nyc_output
+
+# IDEs and editors
+backend_mishaga/.idea
+backend_mishaga/.project
+backend_mishaga/.classpath
+backend_mishaga/.c9/
+backend_mishaga/*.launch
+backend_mishaga/.settings/
+backend_mishaga/*.sublime-workspace
+
+# IDE - VSCode
+backend_mishaga/.vscode/*
+backend_mishaga/!.vscode/settings.json
+backend_mishaga/!.vscode/tasks.json
+backend_mishaga/!.vscode/launch.json
+backend_mishaga/!.vscode/extensions.json
+
+# dotenv environment variable files
+backend_mishaga/.env
+backend_mishaga/.env.development.local
+backend_mishaga/.env.test.local
+backend_mishaga/.env.production.local
+backend_mishaga/.env.local
+
+# temp directory
+backend_mishaga/.temp
+backend_mishaga/.tmp
+
+# Runtime data
+backend_mishaga/pids
+backend_mishaga/*.pid
+backend_mishaga/*.seed
+backend_mishaga/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+backend_mishaga/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
