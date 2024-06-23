@@ -24,9 +24,9 @@ frontend_mishaga/*.sln
 frontend_mishaga/*.sw?
 
 # compiled output
-/dist
-/node_modules
-/build
+backend_mishaga/dist
+backend_mishaga/node_modules
+backend_mishaga/build
 
 # Logs
 backend_mishaga/logs
